@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiny Bakes UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="logo-circle">
+            <img src="assets/logo-clean.png" alt="Tiny Bakes logo" />
+          </div>
+          <div class="brand-text-wrap">
+            <div class="brand-text">TINY BAKES</div>
+          </div>
+        </div>
+
+        <nav class="menu">
+          <a href="#">HOME</a>
+          <a href="#">CUSTOM INQUIRY</a>
+          <a href="#">DESIGNS</a>
+        </nav>
+
+        <div class="contact-mini">
+          <span class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6.62 10.79a15.54 15.54 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1-.24 11.3 11.3 0 0 0 3.55.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.49a1 1 0 0 1 1 1 11.3 11.3 0 0 0 .57 3.55 1 1 0 0 1-.24 1z"
+              />
+            </svg>
+            63+ 9862443402
+          </span>
+          <span class="contact-item">
+            <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"
+              />
+            </svg>
+            Tiny Bakes
+          </span>
+          <span class="contact-item">
+            <b>MAIL</b> tinybakesworks@gmail.com
+          </span>
+        </div>
+      </header>
+
+      <section class="hero">
+        <aside class="left-panel">
+          <div class="cta-buttons">
+            <button class="pill-btn">REGISTER NOW</button>
+            <button class="pill-btn">GET STARTED</button>
+          </div>
+
+          <h1>ABOUT<br />TINY BAKES</h1>
+          <p>
+            Tiny Bakes Shop provides customized cakes for birthdays, weddings,
+            anniversaries, corporate events, graduations, cupcakes, dessert
+            boxes, pastries, seasonal specialties, and other special
+            celebrations.
+          </p>
+        </aside>
+
+        <div class="cake-stage">
+          <div class="stage-inner">
+            <img
+              src="assets/main-cake.png"
+              alt="Center cake"
+            />
+          </div>
+        </div>
+
+        <img
+          class="floating-cake floating-cake-top"
+          src="assets/cake1.png"
+          alt="Floating cake slice"
+        />
+        <img
+          class="floating-cake floating-cake-bottom"
+          src="assets/cake4.png"
+          alt="Floating pastry slice"
+        />
+      </section>
+
+      <section class="designs">
+        <h2>CAKE DESIGNS</h2>
+        <div class="design-row">
+          <button class="arrow-btn js-prev" aria-label="Previous">&#10094;</button>
+
+          <div class="design-viewport">
+            <div class="design-track">
+              <article class="card">
+                <img
+                  src="assets/cake1.png"
+                  alt="Cake design one"
+                />
+              </article>
+              <article class="card">
+                <img
+                  src="assets/cake2.png"
+                  alt="Cake design two"
+                />
+              </article>
+              <article class="card">
+                <img
+                  src="assets/cake3.png"
+                  alt="Cake design three"
+                />
+              </article>
+              <article class="card">
+                <img
+                  src="assets/cake4.png"
+                  alt="Cake design four"
+                />
+              </article>
+            </div>
+          </div>
+
+          <button class="arrow-btn js-next" aria-label="Next">&#10095;</button>
+        </div>
+
+        <div class="dots" aria-hidden="true">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
